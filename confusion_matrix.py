@@ -1,3 +1,6 @@
+import numpy as np
+from sklearn import metrics
+
 def get_confusion_matrix(true_labels, pred_labels):
 	#print (true_labels, pred_labels)
 	print ('true_labels', true_labels, 'pred_labels', pred_labels)
